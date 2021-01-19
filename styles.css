@@ -133,7 +133,7 @@ body {
   border: dashed 1.5px #35465d;
   border-radius: 10px;
   background-color: #ffffff;
-  height: 80%;
+  height: 30vh;
 }
 .file-upload-input {
   position: absolute;
@@ -161,13 +161,13 @@ body {
 }
 .upload-image {
   width: 20%;
-  font-size: 5rem;
+  font-size: 3rem;
   margin: auto;
   padding: 5%;
 }
 .upload-text {
   font-family: NanumSqaureR;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.53;
   text-align: center;
   margin: 0 auto;
@@ -287,6 +287,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin-top: 1vh;
+  font-size: 0.85rem;
 }
 
 .ad-banner {
@@ -304,6 +305,12 @@ svg rect {
 @media (min-width: 576px) {
   .file-upload {
     max-width: 540px;
+  }
+  .image-upload-wrap {
+    min-height: 30vh;
+  }
+  .upload-text {
+    font-size: 1rem;
   }
   .result-message {
     font-size: 1.67rem;
@@ -324,7 +331,9 @@ svg rect {
   .subtitle {
     font-size: 2.5rem;
   }
-
+  .upload-image {
+    font-size: 5rem;
+  }
   .file-upload {
     max-width: 960px;
     min-height: 70vh;
@@ -345,6 +354,9 @@ svg rect {
     font-size: 1.5rem;
     width: 80%;
   }
+  .comment {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -354,6 +366,9 @@ svg rect {
   }
   .image-upload-wrap {
     min-height: 70vh;
+  }
+  .upload-text {
+    font-size: 1.2rem;
   }
   .result-message {
     font-size: 2rem;
