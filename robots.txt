@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: https://sharp-davinci-7586e7.netlify.app/sitemap.xml
