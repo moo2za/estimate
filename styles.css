@@ -27,13 +27,13 @@ body {
   width: 100%;
   background-color: #fcf8f8 !important;
   position: fixed;
-  height: 7vh;
+  height: 8vh;
   left: 0;
   top: 0;
   z-index: 11;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   padding: 0.5rem 12.5%;
   background-color: #ffffff;
   -webkit-box-shadow: 3px 3px 20px -4px rgba(0, 0, 0, 0.25);
@@ -68,7 +68,7 @@ body {
 
 .button {
   color: black;
-  font-size: 1.8rem;
+  font-size: 2.3rem;
   border: none;
   text-decoration: none;
 }
