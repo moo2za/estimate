@@ -47,7 +47,7 @@ body {
 }
 
 .nav__list-link {
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: black;
   opacity: 80%;
   text-decoration: none;
@@ -68,7 +68,7 @@ body {
 
 .button {
   color: black;
-  font-size: 2.3rem;
+  font-size: 2rem;
   border: none;
   text-decoration: none;
 }
