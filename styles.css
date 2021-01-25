@@ -47,7 +47,7 @@ body {
 }
 
 .nav__list-link {
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   color: black;
   opacity: 80%;
   text-decoration: none;
@@ -68,7 +68,7 @@ body {
 
 .button {
   color: black;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border: none;
   text-decoration: none;
 }
@@ -99,7 +99,7 @@ body {
 }
 .title {
   font-family: "Jua", sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.67;
   text-align: center;
   color: white;
@@ -110,7 +110,7 @@ body {
 
 .subtitle {
   font-family: "Jua", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.53;
   text-align: center;
@@ -178,7 +178,7 @@ body {
   padding: 5%;
 }
 .upload-text {
-  font-family: NanumSqaureR;
+  font-family: "Jua", sans-serif !important;
   font-size: 1rem;
   line-height: 1.53;
   text-align: center;
@@ -213,11 +213,13 @@ body {
 
 .result-message {
   font-size: 1.67rem;
+  color: rgb(0 52 144);
   margin: 4% 0;
 }
 
 .result-badPart {
   font-size: 1.5rem;
+  color: rgb(0 35 87);
 }
 
 .result-content {
@@ -315,6 +317,18 @@ svg rect {
 }
 
 @media (min-width: 576px) {
+  .nav__list-link {
+    font-size: 1.8rem;
+  }
+  .button {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 4rem;
+  }
+  .subtitle {
+    font-size: 2.5rem;
+  }
   .file-upload {
     width: 94%;
   }
